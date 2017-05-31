@@ -7,7 +7,7 @@ require_relative("../bear")
 class BearTest < Minitest::Test
 
   def setup
-  @bear_1 = Bear.new("Yogi")
+  @bear_1 = Bear.new("Yogi",)
   @river = River.new("Amazon")
   @fish_1 = Fish.new("Salmon")
   end

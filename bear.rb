@@ -2,9 +2,10 @@ class Bear
 
   attr_reader :name
 
-def initialize (tummy)
+def initialize (name)
 
 @tummy = [ ]
+@name = name
 end
 
 def take_a_fish(fish)
